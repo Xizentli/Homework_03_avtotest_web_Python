@@ -1,0 +1,35 @@
+2024-11-13 18:34:13 INFO ====== WebDriver manager ======
+2024-11-13 18:34:15 INFO Get LATEST geckodriver version for None firefox
+2024-11-13 18:34:15 INFO Getting latest mozilla release info for v0.35.0
+2024-11-13 18:34:16 INFO About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.35.0/geckodriver-v0.35.0-win64.zip
+2024-11-13 18:34:17 INFO Driver downloading response is 200
+2024-11-13 18:34:18 INFO Get LATEST geckodriver version for None firefox
+2024-11-13 18:34:19 INFO Get LATEST geckodriver version for None firefox
+2024-11-13 18:34:20 INFO Driver has been saved in cache [C:\Users\aksai\.wdm\drivers\geckodriver\win64\v0.35.0]
+2024-11-13 18:34:25 INFO Test 1 Starting
+2024-11-13 18:34:33 INFO Send test to element //*[@id="login"]/div[1]/label/input
+2024-11-13 18:34:33 INFO Send test to element //*[@id="login"]/div[2]/label/input
+2024-11-13 18:34:33 INFO Click login button
+2024-11-13 18:34:38 INFO We find text 401 in error field //*[@id="app"]/main/div/div/div[2]/h2
+2024-11-13 18:34:38 INFO Test 2 Starting
+2024-11-13 18:34:38 INFO Send 14Mark14 to element //*[@id="login"]/div[1]/label/input
+2024-11-13 18:34:38 INFO Send 11108ed6d6 to element //*[@id="login"]/div[2]/label/input
+2024-11-13 18:34:38 INFO Click login button
+2024-11-13 18:34:43 INFO We find text Hello, 14Mark14 in greeting field //*[@id="app"]/main/nav/ul/li[3]/a
+2024-11-13 18:34:43 INFO Test 3 Starting
+2024-11-13 18:34:43 INFO Click on the Create new post icon
+2024-11-13 18:34:49 INFO Send New post for auto to element //*[@id="create-item"]/div/div/div[1]/div/label/input
+2024-11-13 18:34:49 INFO Send Description to element //*[@id="create-item"]/div/div/div[2]/div/label/span/textarea
+2024-11-13 18:34:49 INFO Send Content to element //*[@id="create-item"]/div/div/div[3]/div/label/span/textarea
+2024-11-13 18:34:49 INFO Click on the SAVE button
+2024-11-13 18:34:54 INFO We find text New post for auto in greeting field //*[@id="app"]/main/div/div[1]/h1
+2024-11-13 18:34:54 INFO Test 4 Starting
+2024-11-13 18:34:54 INFO Click on the Home button
+2024-11-13 18:34:59 INFO We find text New post for auto in greeting field //*[@id="app"]/main/div/div[3]/div[1]/a[1]/h2
+2024-11-13 18:34:59 INFO Test 5 Starting
+2024-11-13 18:34:59 INFO Click on the Contact button
+2024-11-13 18:35:00 INFO Send Galina to element //*[@id="contact"]/div[1]/label/input
+2024-11-13 18:35:00 INFO Send my_email@mail to element //*[@id="contact"]/div[2]/label/input
+2024-11-13 18:35:00 INFO Send Text to send contact to element //*[@id="contact"]/div[3]/label/span/textarea
+2024-11-13 18:35:00 INFO Click on the CONTACT US button
+2024-11-13 18:35:05 INFO We find text Form successfully submitted in field alert

@@ -1,0 +1,11 @@
+address: http://test-stand.gb.ru
+browser_name: firefox
+wait: 5
+username: 14Mark14
+password: 11108ed6d6
+title: "New post for auto"
+description: "Description"
+content: "Content"
+your_name: "Galina"
+your_email: "my_email@mail"
+your_content: "Text to send contact"
